@@ -56,6 +56,6 @@ numbers = {x for x in range(1,5)}
 print(numbers)
 
 
-# tuple comprehensions
-tuple_of_capitals = (x.upper() for x in "Deepali")
-print(tuple_of_capitals)
+
+
+
