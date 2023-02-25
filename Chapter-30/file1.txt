@@ -1,0 +1,5 @@
+To train a machine learning model, you need data. 
+Data science tasks aren’t usually a Kaggle competition where you have a nice large curated dataset that comes pre-labeled. 
+Sometimes you have to collect, organize, and clean your own data. 
+This process of collecting and labeling data in the real world can be time-consuming, cumbersome, expensive, inaccurate, and sometimes dangerous. 
+Furthermore, at the end of this process, you can end up with the data that you encountered in the real world, not necessarily the date you would like in terms of quality, diversity (e.g., class imbalance), and quantity.

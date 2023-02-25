@@ -1,0 +1,1 @@
+The contents of this file are written using File I/O functions in pythonReal data collection and labeling aren’t scalable.Manually labeling real data can sometimes be impossibleReal data has privacy and safety issuesReal data is not programmableA model trained exclusively on real data is not performant enough (e.g., slow development velocity)
