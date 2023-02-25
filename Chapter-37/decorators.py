@@ -3,9 +3,9 @@
 # Decorator is a function that takes anotehr function as an argument and returns new function that modifies the behaviour of original function  ===> new function is called decorated function
 
 def smart_function(fxn):
-    def add():
+    def add(*args):
         print("Welcome")
-        fxn()
+        fxn(*args) # will work for the function that has arguments
         print("Thankyou")
         
     return add
@@ -13,6 +13,12 @@ def smart_function(fxn):
 @smart_function
 def hello():
     print("Hello")
-    
-    
+ 
+
+@smart_function
+def addition(a,b):
+    print(a+b)
+
+
 hello()
+addition(5,6)
