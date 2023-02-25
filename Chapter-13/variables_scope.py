@@ -53,3 +53,35 @@ def display():
     show() # calling inner function
     
 display() # calling main function
+
+x = 100
+del x # removes a variable from its scope
+
+# local verses global scope
+# All Python variables which are accessible at some point in code are either in local scope or in global scope.
+# The explanation is that local scope includes all variables defined in the current function and global scope includes
+# variables defined outside of the current function.
+
+# global verses non local
+# Both are used to reference a variable that are not local to the current functions
+
+
+# inspecting scope of variables defined in this file (displayed as dictionary)
+print(globals().keys()) # prints all variable names in global scope
+print(locals().keys())  # prints all variable names in local scope
+
+
+# modifying a global variable
+def modify():
+    x = x * 3
+    print(x)
+    
+modify() # gives UnboundLocalError => local variable 'x' referenced before assignment
+
+# modifying the above code
+def modify():
+    global x
+    x = x * 3
+    print(x)
+    
+modify() # 300
