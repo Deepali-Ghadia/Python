@@ -9,4 +9,7 @@ import os
 # get current directory
 # print(os.getcwd())
 
-print(os.name)
+print(os.name) # nt => windows OS
+
+# remove a directory
+os.rmdir('Chapter-51/dir2')
