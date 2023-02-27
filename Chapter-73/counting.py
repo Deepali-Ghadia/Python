@@ -23,3 +23,5 @@ print(tup1.count(1))
 statement = "this is a this a n m and this a aa a a a a nn the nin h the the the the the the ht he"
 print(statement.count("i"))
 print(statement.count("this"))
+
+
