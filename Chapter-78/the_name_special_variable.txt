@@ -1,0 +1,3 @@
+# The __name__ special variable is used to check whether a file has been imported as a module or not, and to identify a function, class, module object by their __name__ attribute.
+# If the source file is executed as the main program, the interpreter sets the __name__ variable to have a value “__main__”. If this file is being imported from another module, __name__ will be set to the module’s name.
+
