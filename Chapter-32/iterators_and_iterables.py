@@ -1,5 +1,5 @@
-# Iterable -> an object that can be iterated (list, tuple, strings, dict, etc)
-# Iterator -> is an object that has next() method defined. 
+# Iterable -> an object that can be iterated (list, tuple, strings, dict, etc) | __get_item__() or __iter__()
+# Iterator -> is an object that has next() method defined. | __nex__() method
 # Iteration -> The process of iterating an object and fetching its next elements
 
 
