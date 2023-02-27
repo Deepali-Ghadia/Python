@@ -2,7 +2,7 @@
     # pip install virtualenv
 # creating a virtual environment
     # virtualenv <name_of_virtualenv>
-# activate the virtual environment to use it
-    #  source <name_of_virtualenv>/bin/activate
+# select the interperter 
+    # Ctrl + shift + p -> select interprter -> Scripts/Python
 # deactivate virtualenv
     # deactivate
